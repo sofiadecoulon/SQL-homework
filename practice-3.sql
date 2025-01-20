@@ -12,4 +12,4 @@
 -- | Belmont Cragin         |
 -- | Beverly                |
 
-
+SELECT neighborhood FROM listings group by neighborhood Order by neighborhood;
